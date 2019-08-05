@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp">
+
+    <ImageView
+        android:id="@+id/hotelImage"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/example"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <TextView
+        android:id="@+id/hotelNametxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotel Name"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/hotelImage"/>
+
+    <TextView
+        android:id="@+id/hotelInfotxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotel Info"
+        android:textSize="14sp"
+        android:layout_toRightOf="@id/hotelImage"
+        android:layout_below="@id/hotelNametxt"/>
+
+    <TextView
+        android:id="@+id/hotelPricetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotel price"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_toRightOf="@id/hotelNametxt"
+        android:layout_marginTop="100dp"/>
+</RelativeLayout>

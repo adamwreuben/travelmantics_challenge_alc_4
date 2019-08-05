@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "503747717025",
+    "firebase_url": "https://travelmantis-f66f9.firebaseio.com",
+    "project_id": "travelmantis-f66f9",
+    "storage_bucket": "travelmantis-f66f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503747717025:android:0690af94024e7a38",
+        "android_client_info": {
+          "package_name": "com.adamreuben.challengealc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503747717025-lsdhs8k5b2jd3fs1sg89qjemd7g7bghv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHuefMPeO3wbyD4G1xq_1ZbxMifetxWpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503747717025-lsdhs8k5b2jd3fs1sg89qjemd7g7bghv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
